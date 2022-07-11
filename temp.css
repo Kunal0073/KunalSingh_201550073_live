@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    
+}
+nav .navi{
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+}
+nav .navi li{
+    padding: 20px;
+    list-style-type: none;
+    margin-top: 40px;
+}
+nav .navi li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+nav .navi li a:hover{
+    color: red;
+}
+
+.Rback{
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.Rback h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.buy-pag{
+    display: flex;
+    align-items: center;
+    flex: 3;
+    position: relative;
+}
+.buy-pag a{
+    position: absolute;
+    right: 30px;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 1px 8px #888, 0px -1px 8px #888;
+
+}
+i{
+    padding-left: 10px;
+}
+.cont-mid{
+    display: flex;
+    justify-content: left;
+    margin-top:200px ;
+}
+.text-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+button{
+    width:250px;
+    margin: 20px 0 0 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: gray;
+    background-color: whitesmoke;
+    border:none;
+    border-radius: 5px;
+}
+button span{
+    color: red;
+    font-weight: 700;
+}
+.image img{
+    width:102%;
+    height: 500px;
+}
+.text-cont h1{
+    margin: 30px 0 30px 20px;
+    width:90%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 500%;
+}
+.text-cont p{
+    color: grey;
+    font-weight: 700;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+footer{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
